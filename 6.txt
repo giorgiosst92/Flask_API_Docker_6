@@ -1,0 +1,16 @@
+                                                                Building & testing
+
+Run the following command in the same directory as docker-compose.yml to build the services:
+
+    - docker-compose build
+
+And now run the following to create and start the containers:
+
+    - docker-compose up
+
+You can optionally run the following to achieve the same result:
+
+    - docker-compose up --build
+
+
+Once these 3 steps are done, go on http://localhost:80/ads_count/<int:id>
